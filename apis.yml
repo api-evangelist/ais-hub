@@ -1,0 +1,32 @@
+aid: ais-hub
+name: AIS Hub
+description: "Real-time data of any marine and inland vessel equipped with AIS tracking system"
+url: http://www.aishub.net/api
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Transportation"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Transportation
+  - Public APIs
+apis:
+  - name: AIS Hub
+    description: "Real-time data of any marine and inland vessel equipped with AIS tracking system"
+    humanURL: http://www.aishub.net/api
+    baseURL: http://www.aishub.net/api
+    tags:
+      - Transportation
+    properties:
+      - type: Documentation
+        url: http://www.aishub.net/api
+common:
+  - type: Website
+    url: http://www.aishub.net/api
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

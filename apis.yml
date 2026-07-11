@@ -23,6 +23,8 @@ apis:
       - type: Documentation
         url: http://www.aishub.net/api
 common:
+  - type: DomainSecurity
+    url: security/ais-hub-domain-security.yml
   - type: Website
     url: http://www.aishub.net/api
   - type: PublicAPIsListing
